@@ -1,0 +1,150 @@
+v 20201211 2
+P 300 0 300 300 1 0 0
+{
+T 300 3000 5 10 0 0 90 2 1
+pintype=in
+T 300 355 5 10 1 1 90 1 1
+pinlabel=ON/\_OFF
+T 250 205 5 10 1 1 90 6 1
+pinnumber=1
+T 300 2000 5 10 0 0 90 2 1
+pinseq=1
+}
+P 900 0 900 300 1 0 0
+{
+T 900 3000 5 10 0 0 90 2 1
+pintype=pwr
+T 900 355 5 10 1 1 90 1 1
+pinlabel=Vin
+T 850 205 5 10 1 1 90 6 1
+pinnumber=3
+T 900 2000 5 10 0 0 90 2 1
+pinseq=3
+}
+P 600 0 600 300 1 0 0
+{
+T 600 3000 5 10 0 0 270 6 1
+pintype=pwr
+T 600 355 5 10 1 1 90 1 1
+pinlabel=Vin
+T 550 205 5 10 1 1 90 6 1
+pinnumber=2
+T 600 2000 5 10 0 0 270 6 1
+pinseq=2
+}
+T 2400 1595 8 10 0 1 0 4 1
+documentation=https://recom-power.com/pdf/Innoline/R-5A.pdf
+P 1200 0 1200 300 1 0 0
+{
+T 1200 3000 5 10 0 0 90 2 1
+pintype=pwr
+T 1200 355 5 10 1 1 90 1 1
+pinlabel=Vin
+T 1150 205 5 10 1 1 90 6 1
+pinnumber=4
+T 1200 2000 5 10 0 0 90 2 1
+pinseq=4
+}
+P 1500 0 1500 300 1 0 0
+{
+T 1500 3000 5 10 0 0 90 2 1
+pintype=pwr
+T 1500 355 5 10 1 1 90 1 1
+pinlabel=GND
+T 1450 205 5 10 1 1 90 6 1
+pinnumber=5
+T 1500 2000 5 10 0 0 90 2 1
+pinseq=5
+}
+P 4400 0 4400 300 1 0 0
+{
+T 4400 3000 5 10 0 0 90 2 1
+pintype=in
+T 4400 355 5 10 1 1 90 1 1
+pinlabel=Vout_Sense
+T 4350 205 5 10 1 1 90 6 1
+pinnumber=11
+T 4400 2000 5 10 0 0 90 2 1
+pinseq=11
+}
+P 4100 0 4100 300 1 0 0
+{
+T 4100 3000 5 10 0 0 90 2 1
+pintype=pwr
+T 4100 355 5 10 1 1 90 1 1
+pinlabel=Vout
+T 4050 205 5 10 1 1 90 6 1
+pinnumber=10
+T 4100 2000 5 10 0 0 90 2 1
+pinseq=10
+}
+P 3800 0 3800 300 1 0 0
+{
+T 3800 3000 5 10 0 0 90 2 1
+pintype=pwr
+T 3800 355 5 10 1 1 90 1 1
+pinlabel=Vout
+T 3750 205 5 10 1 1 90 6 1
+pinnumber=9
+T 3800 2000 5 10 0 0 90 2 1
+pinseq=9
+}
+P 3500 0 3500 300 1 0 0
+{
+T 3500 3000 5 10 0 0 90 2 1
+pintype=pwr
+T 3500 355 5 10 1 1 90 1 1
+pinlabel=GND
+T 3450 205 5 10 1 1 90 6 1
+pinnumber=8
+T 3500 2000 5 10 0 0 90 2 1
+pinseq=8
+}
+P 3200 0 3200 300 1 0 0
+{
+T 3200 3000 5 10 0 0 90 2 1
+pintype=pwr
+T 3200 355 5 10 1 1 90 1 1
+pinlabel=GND
+T 3150 205 5 10 1 1 90 6 1
+pinnumber=7
+T 3200 2000 5 10 0 0 90 2 1
+pinseq=7
+}
+P 2900 0 2900 300 1 0 0
+{
+T 2900 3000 5 10 0 0 90 2 1
+pintype=pwr
+T 2900 355 5 10 1 1 90 1 1
+pinlabel=GND
+T 2850 205 5 10 1 1 90 6 1
+pinnumber=6
+T 2900 2000 5 10 0 0 90 2 1
+pinseq=6
+}
+T 2441 1192 8 10 1 1 0 4 1
+device=R-5xxxPA
+T 2441 1392 8 10 1 1 0 4 1
+refdes=MOD?
+T 2441 992 8 10 1 1 0 4 1
+footprint=R-5xxxPA.subc.lht
+B 0 300 5000 1400 3 10 1 0 -1 -1 0 -1 -1 -1 -1 -1
+P 4700 0 4700 300 1 0 0
+{
+T 4700 3000 5 10 0 0 90 2 1
+pintype=in
+T 4700 355 5 10 1 1 90 1 1
+pinlabel=Vadj
+T 4650 205 5 10 1 1 90 6 1
+pinnumber=12
+T 4700 2000 5 10 0 0 90 2 1
+pinseq=12
+}
+T -5 -8 8 10 0 1 0 0 1
+author=Evan Foss (evanfoss@gmail.com)
+T -5 -8 8 10 0 1 0 0 1
+dist-license=GPL
+T -5 -8 8 10 0 1 0 0 1
+use-license=unlimited
+T -5 -8 8 10 0 1 0 0 1
+description=DC/DC converter module non-isolated vertical mounting
