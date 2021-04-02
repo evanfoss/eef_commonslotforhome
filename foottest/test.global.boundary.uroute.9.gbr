@@ -1,17 +1,17 @@
 G04 start of page 10 for group 9 layer_idx 6 *
 G04 Title: (unknown), global_outline *
 G04 Creator: pcb-rnd 2.3.0 *
-G04 CreationDate: 2021-04-02 00:52:23 UTC *
+G04 CreationDate: 2021-04-02 01:52:25 UTC *
 G04 For:  *
 G04 Format: Gerber/RS-274X *
-G04 PCB-Dimensions: 500000 500000 *
+G04 PCB-Dimensions: 300000 500000 *
 G04 PCB-Coordinate-Origin: lower left *
 %MOIN*%
 %FSLAX25Y25*%
 %LNGLOBAL_BOUNDARY_UROUTE_9*%
 %ADD55C,0.0100*%
 G54D55*X0Y500000D02*Y0D01*
-Y500000D02*X500000D01*
-X0Y0D02*X500000D01*
+Y500000D02*X300000D01*
+X0Y0D02*X300000D01*
 Y500000D02*Y0D01*
 M02*
